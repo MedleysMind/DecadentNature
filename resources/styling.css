@@ -51,3 +51,13 @@ img {
     rgba(00, 00, 00, 1)
   );
 }
+.contact{
+    padding: 1%;
+    text-align: center;
+    background: linear-gradient(rgba(99, 99, 99, 0),  white);
+}
+.pageBottom{
+    padding: 1%;
+    text-align: center;
+    background:  white;
+}
