@@ -1,4 +1,4 @@
 init();
-// function init() {
-//   alert("Connected");
-// }
+function init() {
+    $("#fade").fadeIn("slow", function(){});
+}
