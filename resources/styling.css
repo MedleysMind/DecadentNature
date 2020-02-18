@@ -26,7 +26,7 @@ img {
     max-height: 100%;
 }
 .vid {
-  padding: 1%;
+  /* padding: 1%; */
   background: linear-gradient(
     rgba(00, 00, 00, 1),
     black,
@@ -35,7 +35,7 @@ img {
   );
 }
 .about {
-  padding: 1%;
+  /* padding: 1%; */
   background: linear-gradient(rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
 }
 .content {
@@ -44,7 +44,7 @@ img {
 }
 
 .playlists {
-  padding: 1%;
+  /* padding: 1%; */
   background: linear-gradient(
     rgba(00, 00, 00, 0),
     black,
@@ -52,7 +52,7 @@ img {
   );
 }
 .contact{
-    padding: 1%;
+    /* padding: 1%; */
     text-align: center;
     background: linear-gradient(rgba(99, 99, 99, 0),  white);
 }
