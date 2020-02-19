@@ -45,6 +45,11 @@ a {
   font-weight: bolder;
   text-align: center;
 }
+.playlists {
+  text-align: center;
+  /* padding: 1%; */
+  background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
+}
 .vid {
   text-align: center;
   /* padding: 1%; */
@@ -52,18 +57,13 @@ a {
     rgba(00, 00, 00, 1),
     black,
     black,
-    rgba(00, 00, 00, 0.7)
+    rgba(00, 00, 00, 1)
   );
-}
-.playlists {
-  text-align: center;
-  /* padding: 1%; */
-  background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
 }
 .about {
   text-align: center;
   padding: 1%;
-  background: linear-gradient(rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
+  background: linear-gradient(black, rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
 }
 .contact {
   padding: 1%;
