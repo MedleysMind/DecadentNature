@@ -1,9 +1,24 @@
-html, body{
+html,
+body {
   width: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+}
+.mainImage {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.titleImage {
+  max-width: 60%;
+  max-height: 60%;
+  /* max-width: 100%;
+  max-height: 100%; */
+}
+a {
+  color: rgba(255, 182, 193, 0.9);
 }
 #all {
   background: url(./imgs/web-bg.jpeg) no-repeat center center fixed;
@@ -14,26 +29,25 @@ html, body{
   max-width: 100%;
   max-height: 100%;
 }
-a {
-  color: rgba(255, 182, 193, 0.9);
+.social {
+  text-align: center;
+  font-size: 50%;
 }
 .nav {
-  background: linear-gradient(black, rgba(14, 4, 38, 0.5), rgba(14, 4, 38, 0.0));
+  background: linear-gradient(
+    black,
+    black,
+    rgba(14, 4, 38, 0.5),
+    rgba(14, 4, 38, 0)
+  );
   font-family: "Courier New", Courier, monospace;
   font-size: xx-large;
   font-weight: bolder;
   text-align: center;
 }
-.title {
-  text-align: center;
-}
-img {
-    margin: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
 .vid {
-  padding: 1%;
+  text-align: center;
+  /* padding: 1%; */
   background: linear-gradient(
     rgba(00, 00, 00, 1),
     black,
@@ -41,33 +55,23 @@ img {
     rgba(00, 00, 00, 0.7)
   );
 }
+.playlists {
+  text-align: center;
+  /* padding: 1%; */
+  background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
+}
 .about {
+  text-align: center;
   padding: 1%;
   background: linear-gradient(rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
 }
-.content {
-  align-content: center;
-  text-align: center;
-}
-
-.playlists {
+.contact {
   padding: 1%;
-  background: linear-gradient(
-    rgba(00, 00, 00, 0),
-    black,
-    rgba(00, 00, 00, 1)
-  );
+  text-align: center;
+  background: linear-gradient(rgba(00, 00, 00, 0), black);
 }
-.contact{
-    padding: 1%;
-    text-align: center;
-    background: linear-gradient(rgba(99, 99, 99, 0),  white);
-}
-.pageBottom{
-    padding: 1%;
-    text-align: center;
-    background:  white;
-}
-html{
-  width: 100%
+.pageBottom {
+  padding: 1%;
+  text-align: center;
+  background: black;
 }

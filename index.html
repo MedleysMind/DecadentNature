@@ -2,9 +2,10 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <title>Decadent Nature</title>
+    <title>Decadent Nature Music</title>
     <link rel="stylesheet" href="resources/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/styling.css" />
+    <link rel="stylesheet" href="resources/all.css" />
   </head>
   <body id="all">
     <!-- navBar -->
@@ -20,6 +21,43 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="container row social">
+        <div class="col-lg-2 d-lg-block d-none">Follow On:</div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <iframe
+            allowtransparency="true"
+            scrolling="no"
+            frameborder="no"
+            src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fuser-275472632&color=orange_white&size=40"
+            style="width: 40px; height: 40px;"
+          ></iframe>
+        </div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <!-- fix facebook icon connection -->
+          <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <iframe
+            src="https://open.spotify.com/follow/1/?uri=spotify:artist:3bWersynobnvzOk6c8dr2T?si=IYMBbGMEQOmINQZgVy4WJQ&size=basic&theme=light&show-count=0"
+            width="200"
+            height="25"
+            scrolling="no"
+            frameborder="0"
+            style="border:none; overflow:hidden;"
+            allowtransparency="true"
+          ></iframe>
+        </div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <!-- fix instagram icon connection -->
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="col-lg-2 d-lg-block d-none">
+          <a
+            href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music&ls=1"
+            style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg?hex=5E096F) no-repeat;width:40px;height:40px;"
+          ></a>
+        </div>
+      </div>
       <div class="row">
         <div class="col">
           <div class="row">
@@ -37,21 +75,15 @@
         </div>
         <div class="col">
           <li>
-            <img class="" src="./resources/imgs/decadentred.png" alt="" />
+            <img
+              class="titleImage"
+              src="./resources/imgs/decadentred.png"
+              alt=""
+            />
           </li>
         </div>
         <div class="col">
           <div class="row">
-            <!-- <div class="col d-sm-block d-md-none">
-              <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link" href="#">Merch</a>
-              </li>
-            </div>
-            <div class="col d-sm-block d-md-none">
-              <li class="nav-item d-none d-sm-block d-md-none">
-                <a class="nav-link" href="#">Music</a>
-              </li>
-            </div> -->
             <div class="col col-lg-6">
               <li></li>
               <li class="nav-item">
@@ -68,33 +100,24 @@
       </div>
     </ul>
     <!-- header image  -->
-    <div class="container-fluid justify-content-center row">
+    <div class="container-fluid justify-content-center row pb-5">
       <div class="col-lg-8">
         <img
           id="fade"
-          class="img-fluid hidden"
+          class="img-fluid hidden mainImage"
           src="resources/imgs/rickcrop.png"
           alt="Alien Rick"
         />
       </div>
     </div>
     <!-- playlists section -->
-    <div class="container-fluid p-b-10 playlists">
+    <div class="container-fluid pt-5 pb-3 playlists">
+      <h1>Music</h1>
       <div class="row">
-        <div class="col-md-6 col-sm-12 ">
+        <div class="col">
           <iframe
-            width="100%"
-            height="300"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/752515306&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-        </div>
-        <div class="col-md-6 col-sm-12 ">
-          <iframe
-            src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A3RdLTqhYCRnXAW4gRJMLWA"
-            width="100%"
+            src="https://open.spotify.com/embed/artist/3bWersynobnvzOk6c8dr2T"
+            width="75%"
             height="300"
             frameborder="0"
             allowtransparency="true"
@@ -102,10 +125,39 @@
           ></iframe>
         </div>
       </div>
+      <div class="row">
+        <div class="col-4">
+          <!-- Replace with youtube subscribe button -->
+          <iframe
+            allowtransparency="true"
+            scrolling="no"
+            frameborder="no"
+            src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fuser-275472632&color=black_white&size=32"
+            style="width: 32px; height: 32px;"
+          ></iframe>
+        </div>
+        <div class="col-4">
+          <iframe
+            src="https://open.spotify.com/follow/1/?uri=spotify:artist:3bWersynobnvzOk6c8dr2T?si=IYMBbGMEQOmINQZgVy4WJQ&size=detail&theme=dark&show-count=0"
+            width="300"
+            height="56"
+            scrolling="no"
+            frameborder="0"
+            style="border:none; overflow:hidden;"
+            allowtransparency="true"
+          ></iframe>
+        </div>
+        <div class="col-4">
+          <a
+            href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music"
+            style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;"
+          ></a>
+        </div>
+      </div>
     </div>
     <!-- videos section -->
-    <div class="container-fluid content vid">
-      <div class="card ">
+    <div class="container-fluid vid">
+      <div class="">
         <style>
           .embed-container {
             position: relative;
@@ -134,7 +186,7 @@
       </div>
     </div>
     <!-- about section -->
-    <div class="container-fluid content about">
+    <div class="container-fluid about">
       <h1>About</h1>
       <div class="card">
         <p>
@@ -146,7 +198,7 @@
       </div>
     </div>
     <!-- contact section -->
-    <div class="container-fluid content contact">
+    <div class="container-fluid contact">
       <h1>Contact</h1>
       <div class="card">
         <p>
@@ -161,7 +213,7 @@
     <footer class="pageBottom footer">
       <div class="row">
         <div class="col col-lg-3">
-          <img src="resources/imgs/decadentred.png" alt="" />
+          <!-- <img src="resources/imgs/decadentred.png" alt="" /> -->
         </div>
         <div class="col col-lg-3">
           <h1>test</h1>
