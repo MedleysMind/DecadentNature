@@ -12,14 +12,15 @@ body {
   max-height: 100%;
 }
 .titleImage {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 100%;
+  max-height: 100%;
   /* max-width: 100%;
   max-height: 100%; */
 }
 a {
   color: rgba(255, 182, 193, 0.9);
 }
+
 #all {
   background: url(./imgs/web-bg.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -53,6 +54,9 @@ a {
   /* padding: 1%; */
   background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
 }
+.bottomLink{
+  margin: 10%;
+}
 .vid {
   text-align: center;
   /* padding: 1%; */
@@ -63,18 +67,30 @@ a {
     rgba(00, 00, 00, 1)
   );
 }
-.about {
+/* .about {
+  color: white;
   text-align: center;
   padding: 1%;
   background: linear-gradient(black, rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
-}
+} */
 .contact {
+  color: white;
   padding: 1%;
   text-align: center;
-  background: linear-gradient(rgba(00, 00, 00, 0), black);
+  background: linear-gradient(black, rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0), black);
+}
+form{
+  display: inline-block;
+}
+label{
+  margin-bottom: 1px;
 }
 .pageBottom {
   padding: 1%;
   text-align: center;
   background: black;
+}
+.footImage{
+  max-width: 100%;
+  max-height: 100%;
 }
