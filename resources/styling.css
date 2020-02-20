@@ -5,6 +5,7 @@ body {
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+  color: whitesmoke;
 }
 .mainImage {
   margin: auto;
@@ -74,7 +75,6 @@ a {
   background: linear-gradient(black, rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0));
 } */
 .contact {
-  color: white;
   padding: 1%;
   text-align: center;
   background: linear-gradient(black, rgba(00, 00, 00, 0.7), rgba(00, 00, 00, 0), black);
