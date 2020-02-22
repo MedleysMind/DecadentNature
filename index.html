@@ -13,25 +13,14 @@
   <body id="all">
     <!-- navBar -->
     <ul class="nav justify-content-center">
-      <!-- <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
       <div class="container row social mb-4 mt-2">
         <div class="col-lg-2 d-lg-block d-none align-self-center">
           <iframe
             allowtransparency="true"
             scrolling="no"
-            frameborder="no"
             src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fuser-275472632&color=white_orange&size=32"
             style="width: 32px; height: 32px;"
+            title="Soundcloud Button"
           ></iframe>
         </div>
         <div class="col-lg-2 d-lg-block d-none align-self-center">
@@ -50,9 +39,9 @@
             width="200"
             height="25"
             scrolling="no"
-            frameborder="0"
             style="border:none; overflow:hidden;"
             allowtransparency="true"
+            title="Spotify Button"
           ></iframe>
         </div>
         <div class="col-lg-2 d-lg-block d-none align-self-center">
@@ -87,16 +76,16 @@
         <div class="col">
           <li>
             <img
-              class="titleImage"
               src="./resources/imgs/decadentred.png"
-              alt=""
+              alt="Decadent Nature"
+              height="100%"
+              width="100%"
             />
           </li>
         </div>
         <div class="col">
           <div class="row">
             <div class="col col-lg-6">
-              <li></li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Merch</a>
               </li>
@@ -114,33 +103,30 @@
     <div class="container-fluid justify-content-center row pb-5">
       <div class="col-lg-8">
         <img
-          id="fade"
-          class="img-fluid hidden mainImage"
+          class="img-fluid hidden"
           src="resources/imgs/rickcrop.png"
           alt="Alien Rick"
+          height="100%"
+          width="100%"
         />
       </div>
     </div>
     <!-- playlists section -->
     <div class="container-fluid py-5 playlists">
-      <h1 class="pb-3">Music</h1>
+      <h2 class="pb-3">Music</h2>
       <div class="row">
         <div class="col pb-4">
           <iframe
             src="https://open.spotify.com/embed/artist/5SNSCnq23KKq73IRgAA5bl"
             width="75%"
             height="380"
-            frameborder="0"
             allowtransparency="true"
             allow="encrypted-media"
+            title="Spotify Playlist"
           ></iframe>
         </div>
       </div>
       <div class="row">
-        <!-- <div class="col-4 align-self-center">
-          <script src="https://apis.google.com/js/platform.js"></script>
-          <div class="g-ytsubscribe" data-channel="GoogleDevelopers"></div>
-        </div> -->
         <div class="col-3"></div>
         <div class="col-3 align-self-center px-2">
           <iframe
@@ -148,15 +134,16 @@
             width="300"
             height="56"
             scrolling="no"
-            frameborder="0"
             style="border:none; overflow:hidden;"
             allowtransparency="true"
+            title="Spotify Button"
           ></iframe>
         </div>
         <div class="col-3 align-self-center">
           <a
             href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music"
             style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;"
+            title="Apple Music Button"
           ></a>
         </div>
         <div class="col-3"></div>
@@ -164,7 +151,7 @@
     </div>
     <!-- videos section -->
     <div class="container-fluid vid py-5">
-      <h1 class="pb-2">Latest</h1>
+      <h2 class="pb-2">Latest</h2>
       <div class="">
         <style>
           .embed-container {
@@ -187,12 +174,11 @@
         <div class="embed-container">
           <iframe
             src="https://www.youtube.com/embed/ecH6Ei8KPco"
-            frameborder="0"
             allowfullscreen
+            title="Youtube Video"
           ></iframe>
         </div>
         <script src="https://apis.google.com/js/platform.js"></script>
-
         <div
           class="g-ytsubscribe"
           data-channel="GoogleDevelopers"
@@ -201,38 +187,26 @@
         ></div>
       </div>
     </div>
-    <!-- about section -->
-    <!-- <div class="container-fluid about py-5">
-      <h1>About</h1>
-      
-        <p>
-          Decadent Nature isn't just a group that makes music. It's a collective that makes art.
-          With pure focus being put on the quality of the production over the quantity of songs. 
-          It's this hand crafted nature that allows all the music that comes out of Decadent Nature to shine.
-
-        </p>
-      
-    </div> -->
     <!-- contact section -->
     <div class="container-fluid contact py-5">
-      <h1 class="py-3">Contact</h1>
-      <form action="" id="form" method="">
-        <div>
-          <label for="">First Name</label>
-          <div><input type="text" placeholder="Name" /></div>
-        </div>
-        <div>
-          <label for="">Email Address</label>
-          <div><input type="email" placeholder="Email" /></div>
-        </div>
-        <div>
-          <label for="">Message</label>
+      <h2 class="py-3">Contact</h2>
+      <label for="Contact Form">
+        <form action="" id="form" method="">
           <div>
+            <label for="Name">First Name</label>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div>
+            <label for="Email">Email Address</label>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div>
+            <label for="Message">Message</label>
             <textarea name="Message" id="" cols="50" rows="10"></textarea>
           </div>
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
+          <button type="submit">Send Message</button>
+        </form>
+      </label>
     </div>
     <!-- page footer -->
     <footer class="pageBottom footer py-5">
@@ -254,7 +228,12 @@
           ></a>
         </div>
         <div class="col col-lg-4">
-          <img class="footImage" src="resources/imgs/decadentred.png" alt="" />
+          <img
+            src="resources/imgs/decadentred.png"
+            alt="Decadent Nature"
+            height="100%"
+            width="100%"
+          />
         </div>
         <div class="col col-lg-4 justify-content-center">
           <h5>Other Info</h5>
