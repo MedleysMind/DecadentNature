@@ -2,13 +2,11 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Decadent Nature Music</title>
     <link rel="stylesheet" href="resources/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/styling.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-    />
+
   </head>
   <body>
     <!-- navBar -->
@@ -193,15 +191,15 @@
         <form action="" id="form" method="">
           <div>
             <label for="Name">First Name</label>
-            <input type="text" placeholder="Name" />
+            <input aria-label="name" type="text" placeholder="Name" />
           </div>
           <div>
             <label for="Email">Email Address</label>
-            <input type="email" placeholder="Email" />
+            <input aria-label="email" type="email" placeholder="Email" />
           </div>
           <div>
             <label for="Message">Message</label>
-            <textarea name="Message" id="" cols="50" rows="10"></textarea>
+            <textarea aria-label="message" name="Message" id="" cols="50" rows="10"></textarea>
           </div>
           <button type="submit">Send Message</button>
         </form>
@@ -213,16 +211,19 @@
         <div class="col col-lg-4 justify-content-center">
           <h5>Stay Connected</h5>
           <a href="https://www.facebook.com/RickGOfficial/"
+          aria-label="Facebook Button"
             ><i class="fa fa-facebook-square fa-2x"></i
           ></a>
           <a
             href="
             https://twitter.com/DecadentNature"
+            aria-label="Twitter Button"
             ><i class="fa fa-twitter fa-2x"></i
           ></a>
           <a
             href="
           https://www.instagram.com/decadentnature/"
+          aria-label="Instagram Button"
             ><i class="fa fa-instagram fa-2x"></i
           ></a>
         </div>
@@ -243,10 +244,14 @@
       </div>
     </footer>
     <!-- script holder -->
-    <div class="scriptholder">
+    <div class="holder">
       <script src="resources/index.js"></script>
       <script src="resources/jquery-3.4.1.js"></script>
       <script src="resources/bootstrap.min.js"></script>
+      <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     </div>
   </body>
 </html>
