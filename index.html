@@ -10,9 +10,9 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
     />
   </head>
-  <body id="all">
+  <body>
     <!-- navBar -->
-    <ul class="nav justify-content-center">
+    <div class="nav justify-content-center">
       <div class="container row social mb-4 mt-2">
         <div class="col-lg-2 d-lg-block d-none align-self-center">
           <iframe
@@ -24,7 +24,9 @@
           ></iframe>
         </div>
         <div class="col-lg-2 d-lg-block d-none align-self-center">
-          <a href="https://www.facebook.com/RickGOfficial/"
+          <a
+            href="https://www.facebook.com/RickGOfficial/"
+            aria-label="Facebook Link"
             ><i class="fa fa-facebook-square fa-2x"></i
           ></a>
         </div>
@@ -48,12 +50,14 @@
           <a
             href="
           https://www.instagram.com/decadentnature/"
+            aria-label="Instagram Link"
             ><i class="fa fa-instagram fa-2x"></i
           ></a>
         </div>
         <div class="col-lg-2 d-lg-block d-none align-self-center">
           <a
             href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music&ls=1"
+            aria-label="Apple Music Link"
             style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:32px;height:32px;"
           ></a>
         </div>
@@ -62,53 +66,53 @@
         <div class="col">
           <div class="row">
             <div class="col col-lg-6 col-sm-12 d-md-block">
-              <li class="nav-item">
+              <div class="nav-item">
                 <a class="nav-link" href="#">Music</a>
-              </li>
+              </div>
             </div>
             <div class="col col-lg-6 col-sm-12">
-              <li class="nav-item">
+              <div class="nav-item">
                 <a class="nav-link" href="#">Latest</a>
-              </li>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <li>
+        <div class="col align-self-center">
+          <div>
             <img
               src="./resources/imgs/decadentred.png"
               alt="Decadent Nature"
               height="100%"
               width="100%"
             />
-          </li>
+          </div>
         </div>
         <div class="col">
           <div class="row">
             <div class="col col-lg-6">
-              <li class="nav-item">
+              <div class="nav-item">
                 <a class="nav-link" href="#">Merch</a>
-              </li>
+              </div>
             </div>
             <div class="col col-lg-6">
-              <li class="nav-item">
+              <div class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
-              </li>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </ul>
+    </div>
     <!-- header image  -->
     <div class="container-fluid justify-content-center row pb-5">
       <div class="col-lg-8">
-        <img
+        <!-- <img
           class="img-fluid hidden"
           src="resources/imgs/rickcrop.png"
           alt="Alien Rick"
           height="100%"
           width="100%"
-        />
+        /> -->
       </div>
     </div>
     <!-- playlists section -->
@@ -126,27 +130,22 @@
           ></iframe>
         </div>
       </div>
-      <div class="row">
-        <div class="col-3"></div>
-        <div class="col-3 align-self-center px-2">
+      <div class="row justify-content-center">
+        <div class="col-12">
           <iframe
             src="https://open.spotify.com/follow/1/?uri=spotify:artist:5SNSCnq23KKq73IRgAA5bl&size=detail&theme=dark&show-count=0"
             width="300"
             height="56"
             scrolling="no"
-            style="border:none; overflow:hidden;"
-            allowtransparency="true"
+            allowtransparency="false"
             title="Spotify Button"
           ></iframe>
-        </div>
-        <div class="col-3 align-self-center">
           <a
             href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music"
             style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;"
             title="Apple Music Button"
           ></a>
         </div>
-        <div class="col-3"></div>
       </div>
     </div>
     <!-- videos section -->
@@ -190,7 +189,7 @@
     <!-- contact section -->
     <div class="container-fluid contact py-5">
       <h2 class="py-3">Contact</h2>
-      <label for="Contact Form">
+      <label for="" title="Contact Form">
         <form action="" id="form" method="">
           <div>
             <label for="Name">First Name</label>
@@ -231,8 +230,8 @@
           <img
             src="resources/imgs/decadentred.png"
             alt="Decadent Nature"
-            height="100%"
-            width="100%"
+            height="125px"
+            width="250px"
           />
         </div>
         <div class="col col-lg-4 justify-content-center">
@@ -246,8 +245,8 @@
     <!-- script holder -->
     <div class="scriptholder">
       <script src="resources/index.js"></script>
-      <script src="resources/bootstrap.min.js"></script>
       <script src="resources/jquery-3.4.1.js"></script>
+      <script src="resources/bootstrap.min.js"></script>
     </div>
   </body>
 </html>
