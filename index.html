@@ -15,8 +15,8 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
     />
-    <link rel="preconnect" href="https://www.csi.gstatic.com">
-    <link rel="preconnect" href="https://open.scdn.co">
+    <link rel="preload" href="resources/jquery-3.4.1.min.js">
+    <link rel="preload" href="resources/bootstrap.min.js">
   </head>
   <body>
     <!-- navBar -->
@@ -196,7 +196,7 @@
             aria-label="Youtube Video"
           ></iframe>
         </div>
-        <script src="https://apis.google.com/js/platform.js" defer></script>
+        <script src="https://apis.google.com/js/platform.js" async></script>
         <div
           class="g-ytsubscribe"
           data-channel="GoogleDevelopers"
@@ -276,8 +276,8 @@
     </footer>
   </body>
   <!-- scripts -->
-<script src="resources/jquery-3.4.1.min.js" async></script>
-<script src="resources/bootstrap.min.js" async></script>
-<script src="resources/index.js" defer></script>
+<script src="resources/jquery-3.4.1.min.js"></script>
+<script src="resources/bootstrap.min.js"></script>
+<!-- <script src="resources/index.js" defer></script> -->
 <!-- <script src="resources/base.js" defer></script> -->
 </html>
