@@ -17,6 +17,9 @@ iframe {
 a {
   color: rgba(255, 182, 193, 0.9);
 }
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  .social { display: none; }   /* hide it elsewhere */
+}
 .social {
   text-align: center;
   font-size: 50%;
