@@ -11,6 +11,9 @@
     <title>Decadent Nature Music</title>
     <link rel="stylesheet" href="resources/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/styling.css" />
+    <link rel="preload" href="https://open.scdn.co">
+    <link rel="preload" href="https://tools.applemusic.com">
+    <link rel="preload" href="https://apis.google.com">
   </head>
   <body>
     <!-- navBar -->
@@ -34,7 +37,7 @@
         </div>
         <div class="col-lg-2 align-self-center">
           <!-- link correct youtube account -->
-          <script src="https://apis.google.com/js/platform.js"></script>
+          <script src="https://apis.google.com/js/platform.js" async></script>
           <div
             class="g-ytsubscribe"
             data-channel="GoogleDevelopers"
@@ -65,7 +68,7 @@
           <a
             href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music&ls=1"
             aria-label="Apple Music Link"
-            style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/embed/v1/app-icon.svg) no-repeat;width:32px;height:32px;"
+            style="display:inline-block;overflow:hidden;background:url(/resources/imgs/app-icon.svg) no-repeat;width:32px;height:32px;"
           ></a>
         </div>
       </div>
@@ -148,14 +151,13 @@
             allowtransparency="false"
             title="Spotify Button"
           ></iframe>
-          
         </div>
         <div class="col-6">
           <a
-          href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music"
-          style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;"
-          title="Apple Music Button"
-        ></a>
+            href="https://geo.music.apple.com/us/artist/rick-g/556337186?mt=1&app=music"
+            style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/badge-lrg.svg?kind=artist&bubble=apple_music) no-repeat;width:158px;height:45px;"
+            title="Apple Music Button"
+          ></a>
         </div>
       </div>
     </div>
@@ -189,7 +191,7 @@
             aria-label="Youtube Video"
           ></iframe>
         </div>
-        <script src="https://apis.google.com/js/platform.js"></script>
+        <script src="https://apis.google.com/js/platform.js" defer></script>
         <div
           class="g-ytsubscribe"
           data-channel="GoogleDevelopers"
@@ -219,8 +221,8 @@
               aria-label="message"
               name="Message"
               id=""
-              cols="50"
-              rows="10"
+              cols="25"
+              rows="5"
             ></textarea>
           </div>
           <button type="submit">Send Message</button>
@@ -228,9 +230,11 @@
       </label>
     </div>
     <!-- page footer -->
-    <footer class="pageBottom footer py-5">
+    <footer
+      class="pageBottom footer py-5 justify-content-center align-self-center"
+    >
       <div class="row">
-        <div class="col col-lg-4 justify-content-center">
+        <div class="col col-lg-4">
           <h5>Stay Connected</h5>
           <a
             href="https://www.facebook.com/RickGOfficial/"
@@ -254,8 +258,7 @@
           <img
             src="resources/imgs/decadentredResize.webp"
             alt="Decadent Nature"
-            height="125px"
-            width="250px"
+            class="imageMain"
           />
         </div>
         <div class="col col-lg-4 justify-content-center">
@@ -269,8 +272,9 @@
     <!-- script holder -->
     <div class="holder">
       <script src="resources/index.js"></script>
-      <script src="resources/jquery-3.4.1.min.js"></script>
-      <script src="resources/bootstrap.min.js"></script>
+      <script src="resources/jquery-3.4.1.min.js" async></script>
+      <script src="resources/bootstrap.min.js" async></script>
+      <script src="resources/base.js" async></script>
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"

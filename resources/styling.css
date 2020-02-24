@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -12,7 +13,7 @@ html, body {
   max-width: 100%;
   max-height: 100%;
 }
-body{
+body {
   position: relative;
 }
 iframe {
@@ -22,7 +23,14 @@ a {
   color: rgba(255, 182, 193, 0.9);
 }
 @media screen and (min-width: 401px) and (max-width: 1024px) {
-  .social { display: none; }   /* hide it elsewhere */
+  .social {
+    display: none;
+  } /* hide it elsewhere */
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  .nav-link {
+    display: none;
+  } /* hide it elsewhere */
 }
 .social {
   text-align: center;
@@ -76,15 +84,15 @@ a {
   text-align: center;
   background: black;
 }
-@media only screen and (max-width: 800px){
-  .imageMain{
+@media only screen and (max-width: 800px) {
+  .imageMain {
     height: 100px;
     width: 200px;
   }
 }
-@media only screen and (max-width: 600px){
-  .imageMain{
-    height: 100%;
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  .imageMain {
+    height: 75;
+    width: 150;
   }
 }
