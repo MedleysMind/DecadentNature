@@ -4,8 +4,8 @@ body {
   padding: 0px;
   overflow-x: hidden;
   color: whitesmoke;
-  background-color: purple;
   background: url(./imgs/siteBG.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -21,6 +21,9 @@ a {
 @media screen and (min-width: 401px) and (max-width: 1024px) {
   .social { display: none; }   /* hide it elsewhere */
 }
+/* @media screen and (min-width: 401px) and (max-width: 1024px) {
+  .nav-link { display: none; }   /* hide it elsewhere */
+} */
 .social {
   text-align: center;
   font-size: 50%;
