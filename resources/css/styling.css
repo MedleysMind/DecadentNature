@@ -4,7 +4,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   color: whitesmoke;
-  background: url(./imgs/siteBG.webp) no-repeat center center fixed;
+  background: url(/resources/imgs/siteBG.webp) no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
