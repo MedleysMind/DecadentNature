@@ -21,9 +21,6 @@ a {
 @media screen and (min-width: 401px) and (max-width: 1024px) {
   .social { display: none; }   /* hide it elsewhere */
 }
-/* @media screen and (min-width: 401px) and (max-width: 1024px) {
-  .nav-link { display: none; }   /* hide it elsewhere */
-} */
 .social {
   text-align: center;
   font-size: 50%;
