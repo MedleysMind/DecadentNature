@@ -10,7 +10,6 @@
       A one stop shop for all social links and latest information. A site by Patrick Medley."
     />
     <!-- preconnects -->
-    <link rel="preconnect" href="https://www.google.com" crossorigin />
     <link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin />
     <link rel="preconnect" href="https://ssl.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://yt3.ggpht.com" crossorigin />
@@ -26,10 +25,6 @@
     <!-- styles -->
     <link rel="stylesheet" href="resources/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/styling.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-    />
   </head>
   <body>
     <!-- navBar -->
@@ -53,12 +48,15 @@
           ></a>
         </div>
         <div class="col-lg-2 align-self-center">
-          <script src="https://apis.google.com/js/platform.js" async></script>
+          <script src="https://apis.google.com/js/platform.js"></script>
+
           <div
             class="g-ytsubscribe"
-            data-channel="GoogleDevelopers"
-            title="Youtube Subscribe Button"
-            aria-label="Youtube Subscribe Button"
+            data-channelid="UCBnVy_XYgikOz3Rqtt7OiUA"
+            data-layout="default"
+            data-count="default"
+            aria-label="Youtube Button"
+            title="Youtube Button"
           ></div>
         </div>
         <div class="col-lg-2 align-self-center">
@@ -209,10 +207,11 @@
             aria-label="Youtube Video"
           ></iframe>
         </div>
-        <script src="https://apis.google.com/js/platform.js" async></script>
+        <script src="https://apis.google.com/js/platform.js"></script>
+
         <div
           class="g-ytsubscribe"
-          data-channel="GoogleDevelopers"
+          data-channelid="UCBnVy_XYgikOz3Rqtt7OiUA"
           data-layout="full"
           data-count="default"
           title="Youtube Subscribe Button"
@@ -287,9 +286,13 @@
         </div>
       </div>
     </footer>
-      <!-- scripts -->
-  <script src="resources/jquery-3.4.1.min.js"></script>
-  <script src="resources/bootstrap.min.js"></script>
-  <!-- <script src="resources/index.js" async></script> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <!-- scripts -->
+    <script src="resources/jquery-3.4.1.min.js"></script>
+    <script src="resources/bootstrap.min.js"></script>
+    <script src="resources/index.js" async></script>
   </body>
 </html>
