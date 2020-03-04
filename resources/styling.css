@@ -56,6 +56,11 @@ a {
   /* padding: 1%; */
   background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
 }
+p {
+  text-align: center;
+  /* padding: 1%; */
+  background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 0));
+}
 .bottomLink {
   margin: 10%;
 }
@@ -69,7 +74,7 @@ a {
     rgba(00, 00, 00, 1)
   );
 }
-.contact {
+.rick {
   padding: 1%;
   text-align: center;
   background: linear-gradient(
