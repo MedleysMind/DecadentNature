@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  //collapses drop down banner on click
+  $('.btn-primary').on('click', function(){
+  $('.dropdown').slideUp(1000);
+  })
   // Add smooth scrolling to all links
   $(".nav-link").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -22,3 +26,4 @@ $(document).ready(function() {
     } // End if
   });
 });
+// On button click close and add cookie (expires in 100 days)
