@@ -1,7 +1,7 @@
 $(document).ready(function() {
   //collapses drop down banner on click
   $('.btn-primary').on('click', function(){
-  $('.dropdown').slideUp(1000);
+  $('.dropdown').slideUp(750);
   })
   // Add smooth scrolling to all links
   $(".nav-link").on("click", function(event) {
