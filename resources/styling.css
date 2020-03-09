@@ -22,12 +22,14 @@ iframe {
 a {
   color: rgba(255, 182, 193, 0.9);
 }
+/* this prevents the white bar showing on mobile scrolling */
 @media only screen and (max-device-width: 480px){
   html{
     height: calc(100% + 60px);
     min-height: calc(100% + 60px);
   }
 }
+/* hides the social media bar on mobile */
 @media screen and (min-width: 401px) and (max-width: 1024px) {
   .social {
     display: none;
