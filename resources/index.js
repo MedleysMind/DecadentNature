@@ -1,9 +1,24 @@
+
+
+
 $(document).ready(function() {
   //collapses drop down banner on click
   // $('.btn-primary').on('click', function(){
   // $('.dropdown').slideUp(750);
   // })
   // Send contact info and message to client email
+  // Opens up the appropriate modal for terms
+  // $(".bottomModal").click(function() {
+  //   alert("Got Clicked");
+  // });
+
+  document.getElementById("terms").onclick = function getmodal(){
+    alert("It works!");
+  }
+  document.getElementById("privacy").onclick = function getmodal(){
+    alert("It works!");
+  }
+
   // Add smooth scrolling to all links
   $(".nav-link").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
