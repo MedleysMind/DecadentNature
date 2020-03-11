@@ -11,7 +11,7 @@ $(document).ready(function() {
   // $(".bottomModal").click(function() {
   //   alert("Got Clicked");
   // });
-
+  // vanilla JS on clicks for modals
   document.getElementById("terms").onclick = function getmodal(){
     alert("It works!");
   }
