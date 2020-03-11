@@ -33,21 +33,23 @@
       <div class="col-lg-4 d-inline align-self-center">
         <h1>
           <a href="https://youtu.be/OWPvgXiLQng">Escargot Out Now!</a>
+          <!-- Removed button to collapse announcement banner 
           <button
             class="d-lg-none d-md-block btn btn-primary align-self-right"
             type="button"
           >
-          x
-          </button>
+            x
+          </button> -->
         </h1>
       </div>
       <div class="col-lg-4 align-self-center d-none d-md-none d-lg-block">
-        <button
+        <!-- Removed button to collapse announcement banner 
+         <button
           class="btn btn-primary align-self-right justify-content-center"
           type="button"
         >
           x
-        </button>
+        </button> -->
       </div>
     </div>
     <!-- navBar -->
@@ -165,8 +167,8 @@
         />
       </div>
     </div>
-    <!-- playlists section -->
-    <div class="container-fluid py-4 playlists">
+    <!-- music section -->
+    <div class="container-fluid py-5 playlists">
       <h2 class="pb-3" id="music">Music</h2>
       <div class="row">
         <div class="col pb-4">
@@ -217,7 +219,8 @@
           <p>
             Founder of Decadent Nature, Colorado artist Rick G is just getting
             started! Self made rookie with an ambitious outlook on the future.
-            Search Decadent Nature on all social media to find more music!
+            You can check out Decadent Nature and Rick G on all major platforms
+            now to see the newest music!
           </p>
           <!--  RickG social media links -->
           <div class="row justify-content-center align-self-center">
@@ -288,7 +291,7 @@
             height: 100%;
           }
         </style>
-        <div class="embed-container">
+        <div class="embed-container mb-5">
           <iframe
             src="https://www.youtube.com/embed/OWPvgXiLQng"
             allowfullscreen
@@ -297,7 +300,6 @@
           ></iframe>
         </div>
         <script src="https://apis.google.com/js/platform.js"></script>
-
         <div
           class="g-ytsubscribe"
           data-channelid="UCBnVy_XYgikOz3Rqtt7OiUA"
@@ -312,36 +314,25 @@
     <div class="container-fluid pageBottom py-5">
       <h2 class="pb-3" id="contact">Contact</h2>
       <label for="" title="Contact Form">
-        <form action="" method="POST">
-          <div>
-            <label for="Name">First Name</label>
-            <input
-              aria-label="name"
-              type="text"
-              placeholder="Name"
-              name="Name"
-            />
-          </div>
-          <div>
-            <label for="Email">Email Address</label>
-            <input
-              aria-label="email"
-              type="email"
-              placeholder="Email"
-              name="Email"
-            />
-          </div>
-          <div>
-            <label for="Message">Message</label>
-            <textarea
-              aria-label="message"
-              name="Message"
-              id=""
-              cols="25"
-              rows="5"
-            ></textarea>
-          </div>
-          <button type="submit">Send Message</button>
+        <form action="">
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" value="SUBMIT" />
         </form>
       </label>
     </div>
