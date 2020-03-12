@@ -12,11 +12,15 @@ $(document).ready(function() {
   //   alert("Got Clicked");
   // });
   // vanilla JS on clicks for modals
-  document.getElementById("terms").onclick = function getmodal(){
-    alert("It works!");
+  document.getElementById("terms").onclick = function(){
+    alert("Terms of service");
+    //prevents page refresh
+    return false;
   }
-  document.getElementById("privacy").onclick = function getmodal(){
-    alert("It works!");
+  document.getElementById("privacy").onclick = function(){
+    alert("Privacy policy");
+    //prevents page refresh
+    return false;
   }
 
   // Add smooth scrolling to all links

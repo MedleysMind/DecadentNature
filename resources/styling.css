@@ -22,6 +22,10 @@ iframe {
 a {
   color: rgba(255, 182, 193, 0.9);
 }
+.titles{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
 /* this prevents the white bar showing on mobile scrolling */
 @media only screen and (max-device-width: 480px) {
   html {
@@ -51,7 +55,7 @@ a {
   color: white;
 }
 .nav {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Permanent Marker', cursive;
   font-size: xx-large;
   font-weight: bolder;
   text-align: center;
