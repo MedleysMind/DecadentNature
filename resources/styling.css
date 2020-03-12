@@ -45,19 +45,18 @@ a {
 }
 @media screen and (max-width: 600px) {
   .dropdownTitle{
-    font-family: 'Permanent Marker', cursive;
-    color: #6CE31C;
     font-size: 30px;
     }
 }
 @media screen and (min-width: 601px) {
   .dropdownTitle{
-    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    color: #6CE31C;
     }
 }
-
+.dropdownTitle{
+  font-family: 'Permanent Marker', cursive;
+  color: #6CE31C;
+  }
 .dropdownTitle:hover{
   color: #a20100;
 }
