@@ -1,7 +1,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 150%;
   padding: 0px;
   overflow-x: hidden;
   color: whitesmoke;
@@ -41,6 +41,9 @@ a {
   .nav-link {
     display: none;
   } /* hide it elsewhere */
+  .dropdownTitle{
+    font-size: 30px;
+    }
 }
 .dropdownTitle{
   font-family: 'Permanent Marker', cursive;
