@@ -45,6 +45,8 @@ a {
 }
 @media screen and (max-width: 600px) {
   .dropdownTitle{
+    font-family: 'Permanent Marker', cursive;
+    color: #6CE31C;
     font-size: 30px;
     }
 }
