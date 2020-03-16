@@ -11,17 +11,17 @@ $(document).ready(function() {
   // $(".bottomModal").click(function() {
   //   alert("Got Clicked");
   // });
-  // vanilla JS on clicks for modals
-  document.getElementById("terms").onclick = function(){
-    alert("Terms of service");
-    //prevents page refresh
-    return false;
-  }
-  document.getElementById("privacy").onclick = function(){
-    alert("Privacy policy");
-    //prevents page refresh
-    return false;
-  }
+  // // vanilla JS on clicks for modals
+  // document.getElementById("terms").onclick = function(){
+  //   // $("#myModal").modal()
+  //   //prevents page refresh
+  //   return false;
+  // }
+  // document.getElementById("privacy").onclick = function(){
+  //   // $("#myModal").modal()
+  //   //prevents page refresh
+  //   return false;
+  // }
 
   // Add smooth scrolling to all links
   $(".nav-link").on("click", function(event) {

@@ -39,7 +39,7 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     </head>
   <body>
-    <!-- Drop Down Banner -->
+    <!-- Announcement Banner -->
     <div class="dropdown row justify-content-center">
       <div class="col-lg-12 d-inline">
         <h1>
@@ -311,7 +311,7 @@
     <div class="container-fluid pageBottom py-5">
       <h2 class="pb-3 titles" id="contact">Contact</h2>
       <label for="" title="Contact Form">
-        <form action="">
+        <form action="mailto:rickie420g@gmail.com" method="GET">
           <input
             name="name"
             type="text"
@@ -319,17 +319,17 @@
             placeholder="Name"
           />
           <input
-            name="email"
+            name="subject"
             type="text"
             class="feedback-input"
-            placeholder="Email"
+            placeholder="Subject"
           />
           <textarea
-            name="text"
+            name="body"
             class="feedback-input"
             placeholder="Message"
           ></textarea>
-          <input type="submit" value="SUBMIT" />
+          <input id="contactForm" type="submit" value="SUBMIT" />
         </form>
       </label>
     </div>
@@ -366,9 +366,47 @@
           />
         </div>
         <div class="col col-lg-4 justify-content-center align-self-center">
-          <a href="#" id="privacy">Privacy Policy</a>
+          <a data-toggle="modal" data-target="#privacyModal" class="modalLinks">Privacy Policy</a>
           <br />
-          <a href="#" id="terms">Terms of Agreement</a>
+          <a data-toggle="modal" data-target="#termsModal" class="modalLinks">Terms of Agreement</a>
+          <!-- Terms of Agreement Modal -->
+          <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="modalStyle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modalStyle">Terms Of Agreement</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modalStyle">
+                  Hello There
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Privacy Modal -->
+          <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="modalStyle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modalStyle">Privacy Policy</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modalStyle">
+                  Hello There
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
