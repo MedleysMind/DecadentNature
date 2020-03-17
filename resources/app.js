@@ -2,6 +2,19 @@
 
 
 $(document).ready(function() {
+
+  let linkElement = document.createElement('a');
+  linkElement.style.visibility= 'hidden';
+  linkElement.style.position= 'absolute';
+  linkElement.href = 'mailto:rickie420g@gmail.com';
+  document.body.appendChild(linkElement);
+  
+  let clicker = document.getElementById(contactForm);
+  
+  clicker.onclick = () => {
+    linkElement.click();
+  }
+
   //collapses drop down banner on click
   // $('.btn-primary').on('click', function(){
   // $('.dropdown').slideUp(750);
@@ -11,17 +24,6 @@ $(document).ready(function() {
   // $(".bottomModal").click(function() {
   //   alert("Got Clicked");
   // });
-  // // vanilla JS on clicks for modals
-  // document.getElementById("terms").onclick = function(){
-  //   // $("#myModal").modal()
-  //   //prevents page refresh
-  //   return false;
-  // }
-  // document.getElementById("privacy").onclick = function(){
-  //   // $("#myModal").modal()
-  //   //prevents page refresh
-  //   return false;
-  // }
 
   // Add smooth scrolling to all links
   $(".nav-link").on("click", function(event) {
