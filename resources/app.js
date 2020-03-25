@@ -9,11 +9,11 @@ $(document).ready(function() {
   linkElement.href = 'mailto:rickie420g@gmail.com';
   document.body.appendChild(linkElement);
   
-  let clicker = document.getElementById(contactForm);
+  // let clicker = document.getElementById(contactForm);
   
-  clicker.onclick = () => {
-    linkElement.click();
-  }
+  // clicker.onclick = () => {
+  //   linkElement.click();
+  // }
 
   //collapses drop down banner on click
   // $('.btn-primary').on('click', function(){
