@@ -92,7 +92,7 @@ font-size: 140%;
 .playlists {
   text-align: center;
   /* padding: 1%; */
-  background: linear-gradient(rgba(00, 00, 00, 0), black, rgba(00, 00, 00, 1));
+  background: linear-gradient(black, rgba(00, 00, 00, 0), rgba(00, 00, 00, 1));
 }
 .bottomLink {
   margin: 10%;
@@ -115,10 +115,10 @@ font-size: 140%;
   padding: 1%;
   text-align: center;
   background: linear-gradient(
-    black,
-    rgba(00, 00, 00, 0.7),
     rgba(00, 00, 00, 0),
+    black,
     black
+    /* rgba(00, 00, 00, 1) */
   );
 }
 .pageBottom {
